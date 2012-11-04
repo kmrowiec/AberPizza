@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.6.0_24" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Order">
+    <void property="change">
+     <object class="java.math.BigDecimal">
+      <string>11.38</string>
+     </object>
+    </void>
+    <void property="customerName">
+     <string>Batman</string>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1334193186339</long>
+     </object>
+    </void>
+    <void property="items">
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object id="StoreItem0" class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Small margherita</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>2.99</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>2</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Small pepperoni</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>3.49</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>2</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Medium hawaiian</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>6.99</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>1</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Large vegetarian</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>8.99</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>1</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Nachos</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>2.95</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>2</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Coffee</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>1.89</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>2</int>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="number">
+     <string>1/20120412</string>
+    </void>
+    <void property="tendered">
+     <object class="java.math.BigDecimal">
+      <string>50.00</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Order">
+    <void property="change">
+     <object class="java.math.BigDecimal">
+      <string>0.72</string>
+     </object>
+    </void>
+    <void property="customerName">
+     <string>Poor Student</string>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1334193216019</long>
+     </object>
+    </void>
+    <void property="items">
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Spring Water 500ml</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>1.29</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>1</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object idref="StoreItem0"/>
+       </void>
+       <void property="quantity">
+        <int>1</int>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="number">
+     <string>2/20120412</string>
+    </void>
+    <void property="tendered">
+     <object class="java.math.BigDecimal">
+      <string>5.00</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Order">
+    <void property="change">
+     <object class="java.math.BigDecimal">
+      <string>0.09</string>
+     </object>
+    </void>
+    <void property="customerName">
+     <string>fsdfsdf</string>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1334248699702</long>
+     </object>
+    </void>
+    <void property="items">
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Fizzy drink refill</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>2.29</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>3</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Spring Water 500ml</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>1.29</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>3</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Coffee</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>1.89</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>1</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Carling</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>2.89</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>2</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.OrderItem">
+       <void property="item">
+        <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.StoreItem">
+         <void property="description">
+          <string>Tee</string>
+         </void>
+         <void property="price">
+          <object class="java.math.BigDecimal">
+           <string>1.75</string>
+          </object>
+         </void>
+        </object>
+       </void>
+       <void property="quantity">
+        <int>2</int>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="number">
+     <string>3/20120412</string>
+    </void>
+    <void property="tendered">
+     <object class="java.math.BigDecimal">
+      <string>22.00</string>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
